@@ -1,0 +1,16 @@
+python -m venv env
+env\Scripts\activate
+
+
+pip install streamlit google-generativeai pandas plotly
+
+pip freeze > requirements.txt
+
+
+pip install -r requirements.txt
+python.exe -m pip install --upgrade pip
+
+
+streamlit run app.py --server.runOnSave true
+
+GOOGLE_API_KEY = "AIzaSyB_1XLoEbZQGbYD3EgOenEe81rxCR6m8C0"
