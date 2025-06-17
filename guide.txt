@@ -13,4 +13,3 @@ python.exe -m pip install --upgrade pip
 
 streamlit run app.py --server.runOnSave true
 
-GOOGLE_API_KEY = "AIzaSyB_1XLoEbZQGbYD3EgOenEe81rxCR6m8C0"
