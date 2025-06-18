@@ -13,3 +13,4 @@ python.exe -m pip install --upgrade pip
 
 streamlit run app.py --server.runOnSave true
 
+uvicorn app:app --reload --port 8000
